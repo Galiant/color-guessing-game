@@ -40,3 +40,8 @@ function changeColors(color) {
     squares[i].style.backgroundColor = color;
   }
 }
+
+function pickColor() {
+  var random = Math.floor(Math.random() * colors.length);
+  return colors[random];
+}
